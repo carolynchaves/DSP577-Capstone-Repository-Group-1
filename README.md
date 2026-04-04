@@ -49,7 +49,8 @@ This dataset synthesizes patterns from multiple authoritative sources including:
 
 #### Statistical Analysis
 - Correlation analysis to examine relationships between environmental and health variables
-- Autocorrelation analysis of health targets and climate lag features to determine whether delayed climate effects or prior     health state better predict current outcomes
+- Autocorrelation analysis of health targets and climate lag features
+    -Found that lagged health outcomes (e.g. heat-related admissions at r=0.63) carry stronger time-series signal than shifted climate inputs, informing the LSTM target-lag model design
 - Time-series analysis to identify trends and patterns from 2015–2025
 - Comparative analysis across countries, regions, and income levels
 
