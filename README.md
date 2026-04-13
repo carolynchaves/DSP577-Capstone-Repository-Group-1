@@ -93,18 +93,17 @@ The interactive dashboard enables users to:
 
 ## Evaluation Metrics
 
+Models are evaluated on a held-out test set (2024 to 2025) using the following quantitative metrics, reported separately for each target variable:
+
 ### Quantitative
-- Mean Absolute Error (MAE)
+- RMSE (Root Mean Squared Error)
 - Mean Squared Error (MSE)
-- R² (model performance)
-- System reliability
+- R² (model performance)- System reliability
 
 ### Qualitative
-- 15–20 user test scenarios
-- Evaluation based on:
+- Dashboard evaluation based on:
   - Clarity
   - Interpretability
-  - Usefulness for non-expert users
 
 ## Deliverables
 - Python analysis (data preprocessing, statistical analysis, predictive modeling)
